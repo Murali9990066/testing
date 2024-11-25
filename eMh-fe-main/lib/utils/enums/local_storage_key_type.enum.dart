@@ -1,0 +1,18 @@
+enum LocalStorageKeyType {
+  language,
+  patient,
+  reportReason,
+  gender,
+  maritalStatus,
+  diet,
+  userProfileImage,
+  userName,
+  userEmail,
+  userContactNumber,
+  userAge,
+  userDateOfBirth,
+  userMaritalStatus,
+  userHeight,
+  userWeight,
+  userDiet,
+}

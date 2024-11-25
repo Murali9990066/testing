@@ -1,0 +1,26 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "eMedFile (dev)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/environments/main_dev.dart",
+            "args": ["--flavor", "dev"]
+        },
+        {
+            "name": "eMedFile (staging)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/environments/main_staging.dart",
+            "args": ["--flavor", "staging"]
+        },
+        {
+            "name": "eMedFile (prod)",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/environments/main_prod.dart",
+            "args": ["--flavor", "prod"]
+        }
+    ]
+}
